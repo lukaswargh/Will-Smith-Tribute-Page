@@ -1,0 +1,99 @@
+/*---------Title-------*/
+#title {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    background-color: rgb(53, 53, 53);
+    padding: 7px;
+    color: #fff;
+    border: 2px #ff0000 solid;
+    border-radius: 3px;
+}
+.fresh {
+    border: solid 2px #ff0000;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    Background-color:rgb(53, 53, 53);
+    padding: 3px;
+    margin-top: 5px;
+    color: #fff;
+    border-radius: 3px;
+}
+/*---------MAIN--------*/
+#main {
+    background-color: #808080;
+    font-family: 'Open Sans', sans-serif;
+}
+/*---------IMAGE-------*/
+#img-div img {
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+    border: 2px#ff0000 solid;
+    max-width: 100%;
+    position: relative;
+    width: 600px;
+}
+
+#img-caption {
+    font-size: 15px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(53, 53, 53);
+    color: #fff;
+    border: 2px #ff0000 solid;
+    border-top: none;
+    max-width: 100%;
+    width: 600px;
+}
+/*---------INFO-------*/
+#tribute-info {
+    background-color: rgb(53, 53, 53);
+    margin: auto;
+    color: #fff;
+    display: flex;
+    margin-top: 5px;
+    padding: 10px;
+    justify-content: space-between;
+    border: 2px #ff0000 solid;
+    border-radius: 5px;
+}
+/*-------LINK-------*/
+#tribute-link {
+    display: flex;
+    color: #fff;
+    font-size: 23px;
+    font-family: 'Open-Sans', sans-serif;
+    font-weight: bolder;
+    justify-content: center;
+    background-color: rgb(53, 53, 53);
+    padding: 5px;
+    border: 2px #ff0000 solid;
+    border-radius: 3px;
+    margin: auto;
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+#tribute-link:hover {
+    text-decoration: underline;
+    color: #ff0000;
+}
+
+.source-link {
+    color: #fff;
+}
+
+.source-link:hover {
+    color: #ff0000;
+}
+
+.variety {
+color: #fff;
+}
+
+.variety:hover {
+    color: #ff0000
+}
